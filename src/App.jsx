@@ -41,6 +41,9 @@ import Test from './pages/Test'
 import { Routes, Route } from 'react-router-dom'
 import Dashboard from './pages/Dashboard'
 import Nav from './pages/Nav'
+import Signup from './Signup'
+import AddProduct from './pages/AddProduct'
+import AllProducts from './pages/AllProducts'
 
 const App = () => {
   return (
@@ -51,6 +54,9 @@ const App = () => {
         <Route path="/test" element={<Test/>} />
         <Route path='/dashboard' element={<Dashboard/>}/>
         <Route path='/navpage' element={<Nav/>}/>
+        <Route path='/signup' element={<Signup/>}/>
+        <Route path='/add-product' element={<AddProduct/>} />
+        <Route path='/all-products' element={<AllProducts/>} />
         {/* <Route path='/navpage' element={<Navbar/>}/> */}
       </Routes>
     </>
