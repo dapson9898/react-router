@@ -44,6 +44,7 @@ import Nav from './pages/Nav'
 import Signup from './Signup'
 import AddProduct from './pages/AddProduct'
 import AllProducts from './pages/AllProducts'
+import Signin from './pages/Signin'
 
 const App = () => {
   return (
@@ -55,6 +56,7 @@ const App = () => {
         <Route path='/dashboard' element={<Dashboard/>}/>
         <Route path='/navpage' element={<Nav/>}/>
         <Route path='/signup' element={<Signup/>}/>
+        <Route path='/signin' element={<Signin/>}/>
         <Route path='/add-product' element={<AddProduct/>} />
         <Route path='/all-products' element={<AllProducts/>} />
         {/* <Route path='/navpage' element={<Navbar/>}/> */}

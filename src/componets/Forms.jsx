@@ -28,7 +28,7 @@ const Form = () => {
         </button>
         <p className="signup-link">
           No account?
-          <a href>Sign up</a>
+          <a href="">Sign up</a>
         </p>
       </form>
     </StyledWrapper>
